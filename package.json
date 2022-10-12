@@ -27,7 +27,9 @@
     "@react-navigation/drawer": "5.12.9",
     "redux": "4.1.2",
     "react-redux": "7.2.6",
-    "@reduxjs/toolkit": "1.7.2"
+    "@reduxjs/toolkit": "1.7.2",
+    "@react-native-community/datetimepicker": "4.0.0",
+    "@react-native-picker/picker": "2.2.1"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9"
