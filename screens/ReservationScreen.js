@@ -113,7 +113,6 @@ const ReservationScreen = () => {
                 onPress={() => {
                     setShowModal(!showModal);
                     resetForm();
-
                 }}
                 color='#5637DD'
                 title='Close'
