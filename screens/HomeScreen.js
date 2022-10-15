@@ -42,13 +42,13 @@ const FeaturedItem = (props) => {
 };
 
 const HomeScreen = () => {
-  const campsites = useSelector((state) => state.campsites);
-  const promotions = useSelector((state) => state.promotions);
-  const partners = useSelector((state) => state.partners);
+  const campsites = useSelector((state) => (state.campsites));
+  const promotions = useSelector((state) => (state.promotions));
+  const partners = useSelector((state) => (state.partners));
 
-  const featCampsite = campsites.campsitesArray.find((item) => item.featured);
-  const featPromotion = promotions.promotionsArray.find((item) => item.featured);
-  const featPartner = partners.partnersArray.find((item) => item.featured);
+  const featCampsite = campsites.campsitesArray.find((item) => (item.featured));
+  const featPromotion = promotions.promotionsArray.find((item) => (item.featured));
+  const featPartner = partners.partnersArray.find((item) => (item.featured));
 
   return (
     <ScrollView>
