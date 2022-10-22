@@ -153,7 +153,14 @@ const styles = StyleSheet.create({
   },
   modal: {
     justifyContent: 'center',
-    margin: 20
+    ...Platform.select({
+      ios: {
+        margin: 40,
+      },
+      android: {
+        margin: 20,
+      }
+    })
   }
 });
 
